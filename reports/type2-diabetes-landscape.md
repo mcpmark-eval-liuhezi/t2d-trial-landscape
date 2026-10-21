@@ -4,7 +4,7 @@
 **Query:** condition search "type 2 diabetes" — 12,002 registered studies in total.
 **Case-study anchor:** SUNSHINE (saxagliptin), NCT01608724.
 
-**Headline numbers.** Type 2 diabetes is one of the largest single-condition portfolios in the registry: 12,002 studies, of which only **872 (7.3%) are currently recruiting** — 65.7% have already completed, and a further 14.6% sit in an inactive/terminated status. **Academic/hospital ("other") sponsors lead with 7,189 studies (59.9%) vs. 4,355 industry (36.3%)**, and among phased trials Phase 3 (1,645) is the most common phase. The registry's country counts are location-sites, not studies: the United States (48,300 sites) and China (4,759) host the most activity.
+**Headline numbers.** Type 2 diabetes is one of the largest single-condition portfolios in the registry: 12,002 studies, of which only **872 (7.3%) are currently recruiting** — 65.7% have already completed, 12.8% carry an unknown status, and 7.1% are terminated, withdrawn, or suspended. **Academic/hospital ("other") sponsors lead with 7,189 studies (59.9%) vs. 4,355 industry (36.3%)**, and Phase 3 is the most common phase assignment (1,645). The registry's country counts are location-sites, not studies: the **United States hosts 49,300 sites — roughly 7.9× the runner-up, Japan (6,207)**, with China third (5,749).
 
 ---
 
@@ -39,10 +39,12 @@
 | Phase 1 | 1,247 | 10.4% |
 | Early Phase 1 | 86 | 0.7% |
 | N/A (no phase recorded) | 4,497 | 37.5% |
-| Phase not specified in record | 1,806 | 15.0% |
-| **Total (phase-bucket sum)** | **12,002** | **100%** |
+| Phase not specified in record | 2,116 | 17.6% |
+| **Total (phase assignments)** | **12,312** | — |
 
-*Phase assignments are mutually exclusive here (each study in exactly one bucket; 1,806 records carry no phase in the registry). Among the 5,699 phased trials, Phase 3 (28.9% of phased) and Phase 4 (24.7%) dominate — the pipeline skews late-stage.*
+> **Note:** phase bucket counts sum to 12,312, not 12,002 — trials registered with combined phases (e.g., Phase 1/2, Phase 2/3) are counted once in each phase the registry lists for them. Percentages are expressed against the 12,002-study population. The status and sponsor-class tables each sum exactly to 12,002.
+
+*Among the 5,699 phase assignments on phased records, Phase 3 (28.9%) and Phase 4 (24.7%) dominate — the pipeline skews late-stage.*
 
 ### 3. Type 2 diabetes trials by sponsor class
 
@@ -57,28 +59,36 @@
 | Individual | 13 | 0.1% |
 | **Total** | **12,002** | **100%** |
 
-### 4. Type 2 diabetes trials by country (top 20; location-sites, not studies)
+### 4. Type 2 diabetes trials by country (top 20)
 
-| Country | Registry count | | Country | Registry count |
-|---|---:|---|---|---:|
-| United States | 48,300 | | Romania | 1,066 |
-| China | 4,759 | | Canada | 1,065 |
-| Germany | 2,956 | | Sweden | 899 |
-| India | 2,632 | | Japan | 845 |
-| United Kingdom | 2,033 | | Spain | 821 |
-| France | 2,024 | | India... *(see below)* | — |
-| Poland | 1,828 | | Argentina | 792 |
-| Mexico | 1,613 | | South Africa | 770 |
-| Russia | 612 | | Italy | 717 |
-| South Korea | 1,710 | | Netherlands | 698 |
+| Rank | Country | Registry count |
+|---:|---|---:|
+| 1 | United States | 49,300 |
+| 2 | Japan | 6,207 |
+| 3 | China | 5,749 |
+| 4 | Germany | 5,673 |
+| 5 | Canada | 5,450 |
+| 6 | United Kingdom | 4,159 |
+| 7 | India | 3,907 |
+| 8 | Poland | 3,228 |
+| 9 | Russia | 3,171 |
+| 10 | Spain | 3,060 |
+| 11 | France | 2,992 |
+| 12 | Italy | 2,578 |
+| 13 | South Korea | 2,548 |
+| 14 | Mexico | 2,502 |
+| 15 | Hungary | 2,106 |
+| 16 | Argentina | 2,086 |
+| 17 | Romania | 1,773 |
+| 18 | Brazil | 1,743 |
+| 19 | Czechia | 1,731 |
+| 20 | Netherlands | 1,698 |
 
-A multi-country trial is counted once per country it runs in, so country counts exceed the 12,002-study total. **United States (48,300) hosts roughly 5.3× the sites of the runner-up, China (4,759)**. Rounding out the top ten: Germany 2,956, India 2,632, United Kingdom 2,033, France 2,024, Poland 1,828, Mexico 1,613, South Korea 1,710, Russia 612.
-
-> **Counting caveat (important for review):** the registry reports *study-location entries*, not distinct studies — one global trial contributes a count to every country it operates in, so the country table sums to far more than 12,002. The status, phase, and sponsor-class tables above are study-level counts and each sums exactly to 12,002.
+> **Counting caveat (important for review):** the registry reports *study-location entries*, not distinct studies — one multi-country trial contributes a count to every country it operates in (and a single country's count can exceed its number of studies when a domestic trial lists many sites). Country counts therefore sum to far more than 12,002 and are not percentages of the study population. The status, phase, and sponsor-class tables above are study-level counts.
 
 ### 5. Contrast: type 1 diabetes (4,668 studies) vs. type 2 diabetes (12,002 studies)
 
-**Type 1 diabetes by overall status (4,668 studies):**
+**By overall status:**
 
 | Overall status | Type 1 count | Type 1 % | T2D count | T2D % |
 |---|---:|---:|---:|---:|
@@ -91,9 +101,12 @@ A multi-country trial is counted once per country it runs in, so country counts 
 | Withdrawn | 138 | 3.0% | 242 | 2.0% |
 | Enrolling by invitation | 34 | 0.7% | 92 | 0.8% |
 | Suspended | 14 | 0.3% | 33 | 0.3% |
-| **Total** | **4,668** | | **12,002** | |
+| No longer available | 6 | 0.1% | 2 | 0.0% |
+| Approved for marketing | 1 | 0.0% | 0 | 0.0% |
+| Available | 0 | 0.0% | 1 | 0.0% |
+| **Total** | **4,668** | **100%** | **12,002** | **100%** |
 
-**Type 1 diabetes by phase (4,668 studies):**
+**By phase:**
 
 | Phase | Type 1 count | Type 1 % | T2D count | T2D % |
 |---|---:|---:|---:|---:|
@@ -103,10 +116,12 @@ A multi-country trial is counted once per country it runs in, so country counts 
 | Phase 1 | 727 | 15.6% | 1,247 | 10.4% |
 | Early Phase 1 | 62 | 1.3% | 86 | 0.7% |
 | N/A (no phase recorded) | 1,784 | 38.2% | 4,497 | 37.5% |
-| Phase not specified in record | 968 | 20.7% | 1,806 | 15.0% |
-| **Total** | **4,668** | | **12,002** | |
+| Phase not specified in record | 968 | 20.7% | 2,116 | 17.6% |
+| **Total (phase assignments)** | **4,911** | — | **12,312** | — |
 
-**How lopsided is it?** The T2D portfolio is **2.6× the size of the T1D portfolio (12,002 vs. 4,668 studies)**. In absolute terms, T2D outnumbers T1D in every phase — most starkly in late-stage work: 1,645 Phase 3 T2D studies vs. 418 for type 1 (**3.9× more**), and 1,408 Phase 4 vs. 265 (**5.3× more**). Type 1 research skews relatively earlier (Phase 1 + Phase 2 = 1,414 studies, 30.3% of its portfolio vs. 21.3% for T2D), while T2D carries proportionally more Phase 3/4 registrational and post-marketing work (25.5% vs. 14.7%). Type 1 also runs slightly "greener" on current activity: 423 recruiting studies (9.1% of portfolio) vs. 872 for T2D (7.3%), though absolute active T2D studies (1,726) still outnumber T1D's ~754.
+*As above, phase-assignment totals exceed the study populations (4,911 vs. 4,668; 12,312 vs. 12,002) because combined-phase trials count in each listed phase; percentages are against each population's study count.*
+
+**How lopsided is it?** The T2D portfolio is **2.6× the size of the T1D portfolio (12,002 vs. 4,668 studies)**. In absolute terms, T2D outnumbers T1D in every phase — most starkly in late-stage work: 1,645 Phase 3 T2D studies vs. 418 for type 1 (**3.9× more**), and 1,408 Phase 4 vs. 265 (**5.3× more**). Type 1 research skews relatively earlier (Phase 1 + Phase 2 = 1,414 studies, 30.3% of its portfolio vs. 21.3% for T2D), while T2D carries proportionally more Phase 3/4 registrational and post-marketing work (25.4% vs. 14.6%). Type 1 also runs slightly "greener" on current activity: 423 recruiting studies (9.1% of its portfolio) vs. 872 for T2D (7.3%), though absolute active T2D studies (1,726) still outnumber T1D's 774.
 
 ---
 
@@ -133,11 +148,11 @@ Additional registry detail: conducted at research sites across China; primary ou
 
 ## Sources
 
-- **Clinical study record:** NCT01608724 (SUNSHINE, saxagliptin 5 mg, AstraZeneca) — full registry record retrieved from ClinicalTrials.gov via the study-record API.
+- **Clinical study record:** NCT01608724 (SUNSHINE, saxagliptin 5 mg, AstraZeneca) — full registry record retrieved from ClinicalTrials.gov.
 - **Registry analyses relied on** (ClinicalTrials.gov analysis tools, condition query "type 2 diabetes", retrieved 2026-10-21):
   - Count by overall recruitment status
   - Count by phase
   - Count by sponsor class
   - Count by country (location-sites)
   - Type 1 diabetes contrast: count by overall status and count by phase (condition query "type 1 diabetes", 4,668 studies)
-- **Methodology note:** the registry's analysis tool caps each analysis at 5,000 studies, and the T2D population (12,002) exceeds that cap. The full population was therefore partitioned into five disjoint slices (4,117 / 2,773 / 2,043 / 1,822 / 1,247 studies), each analyzed separately, with counts summed. The slice totals reconcile exactly to the unscoped condition-query total (12,002), confirming complete, non-overlapping coverage. Type 1 diabetes (4,668 studies) was analyzed directly in a single pass. All counts are reported exactly as the registry returned them; no estimates from prior materials were used.
+- **Methodology note:** the registry's analysis tool caps each analysis at 5,000 studies, and the T2D population (12,002) exceeds that cap. The full population was therefore partitioned into five disjoint slices — all non-completed studies (4,117) plus completed studies in four first-posted-date bands (≤2011: 2,773; 2012–2016: 2,043; 2017–2021: 1,822; 2022+: 1,247) — each analyzed separately, with counts summed. The slice totals reconcile exactly to the unscoped condition-query total (12,002), confirming complete, non-overlapping coverage; the status and sponsor-class cuts each sum exactly to 12,002. Type 1 diabetes (4,668 studies) was analyzed directly in a single pass. All counts are reported exactly as the registry returned them; no estimates from prior materials were used.
