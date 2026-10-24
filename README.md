@@ -21,3 +21,6 @@ Derived figures used in the brief:
 The anchor trial's enrollment (2,165) is 1,250 above (about 2.37x) that median.
 
 Source: ClinicalTrials.gov (registry data retrieved live for this brief).
+
+- `landscape.md` — the type 2 diabetes trial-landscape brief: registry aggregate counts (by phase, by overall recruitment status, and by sponsor class), the three largest recruiting industry-sponsored trials, and a citation check on the SUNSHINE saxagliptin trial (NCT01608724).
+- `report.md` and `anchor.txt` — an earlier date-scoped draft and the anchor trial's registry-verified facts, both superseded by `landscape.md`.
