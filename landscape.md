@@ -1,6 +1,6 @@
 # Type 2 Diabetes Trial Landscape Brief
 
-Landscape brief built from the public ClinicalTrials.gov registry for registered type 2 diabetes (T2D) trials. Numbers below are counts exactly as returned by the registry today (condition search "type 2 diabetes"; 12,030 studies total).
+Landscape brief built from the public ClinicalTrials.gov registry for registered type 2 diabetes (T2D) trials. Numbers below are counts exactly as returned by the registry today (condition search "type 2 diabetes"; 12,030 studies total; retrieved 2026-10-31).
 
 ---
 
@@ -14,9 +14,9 @@ Landscape brief built from the public ClinicalTrials.gov registry for registered
 | Phase 3 | 1,647 |
 | Phase 4 | 1,410 |
 | Early Phase 1 | 87 |
-| N/A (no phase assigned, e.g. observational) | 4,507 |
+| No phase assigned (NA) | 6,629 |
 
-(Phase counts sum to 10,219; the remaining ~811 studies carry no phase value in the registry.)
+(Phase buckets sum to 12,341 against a registry total of 12,030; the "no phase" count of 6,629 is what the registry returns for studies without a Phase 1-4/Early Phase 1 value, and the buckets are reported exactly as returned.)
 
 ### By overall recruitment status
 | Status | Count |
@@ -31,17 +31,15 @@ Landscape brief built from the public ClinicalTrials.gov registry for registered
 | Withdrawn | 242 |
 | Unknown | 1,527 |
 
-(Sum of the nine statuses above is 12,027 of the 12,030 total; the small remainder are studies with no overall status value.)
+(Sum of the nine statuses above is 12,027 of the 12,030 total; the small remainder carry no overall status value.)
 
 ### By sponsor class (industry vs. everything else)
 | Lead sponsor class | Count (all statuses) |
 |---|---|
 | INDUSTRY | 4,365 |
-| OTHER | 7,207 |
-| NIH | 108 |
-| OTHER_GOV | 87 |
+| All other classes combined (NOT INDUSTRY) | 7,665 |
 
-Industry-sponsored trials: **4,365**. All other sponsor classes combined: **7,207 + 108 + 87 = 7,402**. Total of nonzero-class counts: 11,667 (remainder ~363 carry INDIV/NETWORK/AMBIG/UNKNOWN classes).
+Industry-sponsored trials: **4,365**. All other sponsor classes combined: **7,665**. Total: 12,030.
 
 Recruiting + industry snapshot: 181 recruiting industry-sponsored T2D trials; the three largest by enrollment are listed below.
 
