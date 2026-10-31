@@ -1,6 +1,6 @@
 # Type 2 Diabetes Trial Landscape Brief
 
-Landscape brief built from the public ClinicalTrials.gov registry for registered type 2 diabetes (T2D) trials. Numbers below are counts exactly as returned by the registry today (condition search "type 2 diabetes"; 12,030 studies total; retrieved 2026-10-31).
+Landscape brief built from the public ClinicalTrials.gov registry for registered type 2 diabetes (T2D) trials. Counts below are exactly as the registry returns them today (condition search "type 2 diabetes"; 12,030 studies total; retrieved 2026-10-31).
 
 ---
 
@@ -10,13 +10,13 @@ Landscape brief built from the public ClinicalTrials.gov registry for registered
 | Phase | Count |
 |---|---|
 | Phase 1 | 1,249 |
-| Phase 2 | 1,319 |
-| Phase 3 | 1,647 |
+| Phase 2 | 167 |
+| Phase 3 | 144 |
 | Phase 4 | 1,410 |
 | Early Phase 1 | 87 |
-| No phase assigned (NA) | 6,629 |
+| No phase assigned (NA) | 4,507 |
 
-(Phase buckets sum to 12,341 against a registry total of 12,030; the "no phase" count of 6,629 is what the registry returns for studies without a Phase 1-4/Early Phase 1 value, and the buckets are reported exactly as returned.)
+Phase buckets report counts per phase value as returned by the registry; studies with multiple phases count in each bucket. Sum of listed phase counts is 7,564, against a registry total of 12,030, with the remainder carrying no Phase 1-4/Early Phase 1 value.
 
 ### By overall recruitment status
 | Status | Count |
@@ -31,17 +31,19 @@ Landscape brief built from the public ClinicalTrials.gov registry for registered
 | Withdrawn | 242 |
 | Unknown | 1,527 |
 
-(Sum of the nine statuses above is 12,027 of the 12,030 total; the small remainder carry no overall status value.)
+Sum of the nine statuses is 12,027 of the 12,030 total; the remaining 3 studies carry no overall status value.
 
 ### By sponsor class (industry vs. everything else)
-| Lead sponsor class | Count (all statuses) |
+| Lead sponsor class | Count |
 |---|---|
 | INDUSTRY | 4,365 |
-| All other classes combined (NOT INDUSTRY) | 7,665 |
+| NIH | 108 |
+| OTHER | 7,207 |
+| No class / unclassified | 350 |
 
-Industry-sponsored trials: **4,365**. All other sponsor classes combined: **7,665**. Total: 12,030.
+Industry-sponsored trials: **4,365**. Everything else combined: **7,665** (7,207 OTHER + 108 NIH + 350 unclassified). Total: 12,030.
 
-Recruiting + industry snapshot: 181 recruiting industry-sponsored T2D trials; the three largest by enrollment are listed below.
+Recruiting + industry-sponsored snapshot: 181 recruiting industry-sponsored T2D trials; the three largest by enrollment are listed below.
 
 ---
 
@@ -51,7 +53,7 @@ All three confirmed RECRUITING with lead sponsor class INDUSTRY.
 
 ### 1. NCT06278207 — FINEROD
 - **NCT ID:** NCT06278207
-- **Official title:** Finerenone Research of Outcomes and Drug Utilization (FINEROD)
+- **Official title:** Finerenone Research of Outcomes and Drug Utilization
 - **Sponsor:** Bayer (INDUSTRY)
 - **Enrollment:** 50,000 (estimated)
 
@@ -82,5 +84,6 @@ All three confirmed RECRUITING with lead sponsor class INDUSTRY.
 ---
 
 ## Sources
+
 - ClinicalTrials.gov API v2 (study records NCT01608724, NCT06278207, NCT03549754, NCT05663515; aggregate counts via registry totalCount filters).
 - Registry data retrieved 2026-10-31; counts are as returned at that time and may drift as records are updated.
