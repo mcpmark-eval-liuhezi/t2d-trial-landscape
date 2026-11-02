@@ -1,7 +1,9 @@
 # T2D Trial Landscape
 
-This repository contains the Type 2 diabetes trial landscape brief built from ClinicalTrials.gov.
+This repository publishes the Type 2 diabetes trial landscape brief as `landscape.md` on the `report` branch via pull request into `main`.
 
-It includes aggregate trial phase, recruitment status, and sponsor class statistics; profiles of the three largest currently recruiting, industry-sponsored T2D trials by enrollment; and the SUNSHINE (NCT01608724) citation check.
+Aggregate phase, recruitment status, and sponsor class statistics from ClinicalTrials.gov; profiles of the three largest recruiting, industry-sponsored T2D trials by enrollment; and the SUNSHINE (NCT01608724) citation check.
 
-It is published from ClinicalTrials.gov registry data as `landscape.md` on the `report` branch via pull request into `main`.
+## Contents
+- `landscape.md` — T2D trial landscape brief: phase, status, and sponsor-class counts; three largest recruiting industry-sponsored trials by enrollment; SUNSHINE (NCT01608724) citation check.
+- This README — repository overview and contents description.
