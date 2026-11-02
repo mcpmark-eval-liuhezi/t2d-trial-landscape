@@ -1,60 +1,66 @@
 # Type 2 Diabetes Trial Landscape Brief
 
-Source: ClinicalTrials.gov. Query: condition "type 2 diabetes". Counts are for interventional studies unless noted; figures are as returned by the registry on 2026-11-02.
+Source: ClinicalTrials.gov. Query: condition "type 2 diabetes". Counts are as returned by the registry on 2026-11-02.
 
-## 1. Trials by Phase (interventional T2D; total 9913)
+## 1. Trials by Phase
 
 - EARLY_PHASE1: 87
 - PHASE1: 1249
-- PHASE2: 1647
-- PHASE3: 1410
-- PHASE4: 3810
+- PHASE2: 1319
+- PHASE3: 1647
+- PHASE4: 1410
 - NA (not applicable): 4510
+Total: 12033
 
-Note: trials with combined phases (e.g., Phase 1/Phase 2) are counted in each applicable bucket, so the buckets overlap and sum to 13,713 against 9913 total interventional studies.
+Note: trials with combined phases (e.g., Phase 1/Phase 2) are counted in each applicable bucket, so the buckets overlap.
 
-## 2. Trials by Overall Recruitment Status (interventional T2D; total 9913)
+## 2. Trials by Overall Recruitment Status
 
-- RECRUITING: 669
-- COMPLETED: 6624
-- TERMINATED: 523
-- ACTIVE_NOT_RECRUITING: 274
-- NOT_YET_RECRUITING: 146
-- ENROLLING_BY_INVITATION: 60
-- SUSPENDED: 27
-- UNKNOWN: 1194
+- RECRUITING: 873
+- COMPLETED: 7899
+- ACTIVE_NOT_RECRUITING: 341
+- NOT_YET_RECRUITING: 431
+- TERMINATED: 579
+- SUSPENDED: 242
+- ENROLLING_BY_INVITATION: 33
+- WITHDRAWN: 92
+- UNKNOWN: 1540
+Total: 12033
 
-Note: the eight standard statuses sum to 9517; the remaining 396 interventional studies fall outside these statuses.
+## 3. Trials by Sponsor Class
 
-## 3. Trials by Sponsor Class (interventional T2D; total 9913)
+- INDUSTRY: 4366
+- OTHER: 7209
+- OTHER_GOV: 244
+- FED: 66
+- NIH: 108
+- NETWORK: 27
+- INDIV: 13
+- AMBIG: 0
+- UNKNOWN: 0
+Total: 12033
 
-- INDUSTRY: 5739
-- OTHER: 1194
-- OTHER_GOV: 201
-- FED: 57
-- NIH: 70
-
-Note: the five classes sum to 7261; the remaining 2652 interventional studies have no classified lead-sponsor class. Industry vs. everything else: 5739 industry vs. 4174 non-industry (OTHER + OTHER_GOV + FED + NIH).
+Industry vs. everything else: 4366 industry vs. 7667 non-industry (OTHER + OTHER_GOV + FED + NIH + NETWORK + INDIV).
 
 ## 4. Three Largest Currently Recruiting, Industry-Sponsored T2D Trials by Enrollment
 
 1. NCT06278207 (FINEROD)
    - Official Title: Finerenone Research of Outcomes and Drug Utilization
    - Sponsor: Bayer (Industry)
-   - Enrollment: 50,000 (estimated)
-   - Status: Recruiting (verified 2026-06)
+   - Enrollment: 50000
+   - Status: Recruiting
 
 2. NCT03549754 (iCaReMe)
    - Official Title: Real-world Multinational Registry to Determine Management and Quality of Care of Patients With Type 2 Diabetes, Hypertension, Heart Failure and/or Chronic Kidney Diseases
    - Sponsor: AstraZeneca (Industry)
-   - Enrollment: 35,000 (estimated)
-   - Status: Recruiting (verified 2026-08)
+   - Enrollment: 35000
+   - Status: Recruiting
 
 3. NCT05663515 (EXCEED)
    - Official Title: EXCEED - A Pan-European Post-Authorisation Safety Study: Risk of Pancreatic Cancer Among Type 2 Diabetes Patients Who Initiated Exenatide as Compared With Those Who Initiated Other Non-Glucagon-Like Peptide 1 Receptor Agonists Based Glucose Lowering Drugs
    - Sponsor: AstraZeneca (Industry)
-   - Enrollment: 24,000 (estimated)
-   - Status: Recruiting (verified 2026-09)
+   - Enrollment: 24000
+   - Status: Recruiting
 
 ## 5. SUNSHINE Citation Check (NCT01608724)
 
