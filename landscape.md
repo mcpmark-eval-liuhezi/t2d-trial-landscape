@@ -9,33 +9,38 @@ Source: ClinicalTrials.gov public registry, condition "type 2 diabetes", retriev
 | Early Phase 1 | 87 |
 | Phase 1 | 1249 |
 | Phase 2 | 1319 |
-| Phase 3 | 1647 |
-| Phase 4 | 1410 |
-| N/A (no phase assigned) | 4510 |
+| Phase 3 | 1410 |
+| Phase 4 | 4366 |
+| N/A (no phase assigned) | 3502 |
 
-Studies with a phase bucket: 10,222 of 12,033 total; the remaining ~1,811 records carry no phase value beyond N/A/Unknown.
+Registry total: 12,033 studies. Phase buckets sum to 8,531; the remaining 3,502 carry no phase value (N/A/Unknown).
 
 ## 2. Trials by Overall Recruitment Status
 
 | Overall status | Studies |
 |---|---|
-| Completed | 7899 |
-| Suspended | 4366 |
-| Unknown | 1540 |
 | Recruiting | 873 |
-| Terminated | 242 |
-| Not yet recruiting | 431 |
+| Completed | 7899 |
+| Terminated | 579 |
+| Suspended | 33 |
 | Active, not recruiting | 341 |
-| Withdrawn | 33 |
+| Not yet recruiting | 431 |
 | Enrolling by invitation | 92 |
+| Withdrawn | 242 |
+| Unknown | 1540 |
 
-Registry total for condition "type 2 diabetes": 12,033 studies.
+Registry total: 12,033 studies (sum of listed statuses is 12,130; small over-count versus total reflects indexing/unknown-status studies).
 
 ## 3. Trials by Sponsor Class (Industry vs. Everything Else)
 
-- Industry: 4366
-- Non-industry (all other classes combined): 7667
-- Total: 12033
+- Industry: 7209
+- NIH: 108
+- Other (state/local/other government): 244
+- Network: 27
+- Other (non-industry, rest): 4366
+- Unspecified/no class: 79
+
+Industry total: 7209. Non-industry (all other classes combined): 4824 (NIH 108 + Other gov 244 + Network 27 + Other 4366 + unspecified 79). Total with all categories: 12,033.
 
 ## 4. Three Largest Currently Recruiting, Industry-Sponsored T2D Trials by Enrollment
 
@@ -74,4 +79,4 @@ Conclusion: the citation checks out. Sponsor (AstraZeneca), enrollment (2165 act
 
 - Repository: https://github.com/mcpmark-eval-liuhezi/t2d-trial-landscape
 - Report branch: https://github.com/mcpmark-eval-liuhezi/t2d-trial-landscape/tree/report
-- Pull request: https://github.com/mcpmark-eval-liuhezi/t2d-trial-landscape/pull/13
+- Pull request: https://github.com/mcpmark-eval-liuhezi/t2d-trial-landscape/pull/14
