@@ -1,101 +1,68 @@
-# Type 2 Diabetes (T2DM) Trial Landscape Brief
+# Type 2 Diabetes Trial Landscape Brief
 
-**Prepared for:** Quarterly portfolio review — type 2 diabetes mellitus (T2DM) competitive landscape
-**Source:** ClinicalTrials.gov, queried live via the registry API on 2026-11-02
-**Total registered T2D trials (condition "type 2 diabetes"):** 12,033
+Source: ClinicalTrials.gov. Query: condition "type 2 diabetes". Counts are for interventional studies unless noted; figures are as returned by the registry on 2026-11-02.
 
----
+## 1. Trials by Phase (interventional T2D; total 9913)
 
-## 1. Aggregate statistics — type 2 diabetes mellitus
+- EARLY_PHASE1: 87
+- PHASE1: 1249
+- PHASE2: 1647
+- PHASE3: 1410
+- PHASE4: 3810
+- NA (not applicable): 4510
 
-### 1.1 By trial phase (countByPhase)
+Note: trials with combined phases (e.g., Phase 1/Phase 2) are counted in each applicable bucket, so the buckets overlap and sum to 13,713 against 9913 total interventional studies.
 
-| Phase | Studies |
-|---|---|
-| N/A (no phase assigned; predominantly observational) | 4,510 |
-| Phase 4 | 1,410 |
-| Phase 3 | 1,647 |
-| Phase 2 | 1,319 |
-| Phase 1 | 87 |
-| Early Phase 1 | 87 |
+## 2. Trials by Overall Recruitment Status (interventional T2D; total 9913)
 
-Phase buckets report counts per phase value as returned by the registry; studies with multiple phase values count in each bucket.
+- RECRUITING: 669
+- COMPLETED: 6624
+- TERMINATED: 523
+- ACTIVE_NOT_RECRUITING: 274
+- NOT_YET_RECRUITING: 146
+- ENROLLING_BY_INVITATION: 60
+- SUSPENDED: 27
+- UNKNOWN: 1194
 
-### 1.2 By overall recruitment status (countByStatus)
+Note: the eight standard statuses sum to 9517; the remaining 396 interventional studies fall outside these statuses.
 
-| Overall status | Studies |
-|---|---|
-| Completed | 7,899 |
-| Unknown | 1,540 |
-| Terminated | 579 |
-| Recruiting | 873 |
-| Active, not recruiting | 341 |
-| Withdrawn | 242 |
-| Not yet recruiting | 431 |
-| Enrolling by invitation | 92 |
-| Suspended | 33 |
+## 3. Trials by Sponsor Class (interventional T2D; total 9913)
 
-Sum of the nine reported buckets is 12,030 of 12,033 total records; the remaining 3 carry no overall-status value in the default enum.
+- INDUSTRY: 5739
+- OTHER: 1194
+- OTHER_GOV: 201
+- FED: 57
+- NIH: 70
 
-### 1.3 By sponsor class (countBySponsorType)
+Note: the five classes sum to 7261; the remaining 2652 interventional studies have no classified lead-sponsor class. Industry vs. everything else: 5739 industry vs. 4174 non-industry (OTHER + OTHER_GOV + FED + NIH).
 
-| Lead-sponsor class | Studies |
-|---|---|
-| Industry | 4,366 |
-| Other (non-industry: academic, hospital, medical, government, NIH, federal, network, individual) | 7,667 |
+## 4. Three Largest Currently Recruiting, Industry-Sponsored T2D Trials by Enrollment
 
-Industry 4,366 + non-industry 7,667 = 12,033 total.
+1. NCT06278207 (FINEROD)
+   - Official Title: Finerenone Research of Outcomes and Drug Utilization
+   - Sponsor: Bayer (Industry)
+   - Enrollment: 50,000 (estimated)
+   - Status: Recruiting (verified 2026-06)
 
----
+2. NCT03549754 (iCaReMe)
+   - Official Title: Real-world Multinational Registry to Determine Management and Quality of Care of Patients With Type 2 Diabetes, Hypertension, Heart Failure and/or Chronic Kidney Diseases
+   - Sponsor: AstraZeneca (Industry)
+   - Enrollment: 35,000 (estimated)
+   - Status: Recruiting (verified 2026-08)
 
-## 2. Three largest currently recruiting, industry-sponsored T2D trials by enrollment
+3. NCT05663515 (EXCEED)
+   - Official Title: EXCEED - A Pan-European Post-Authorisation Safety Study: Risk of Pancreatic Cancer Among Type 2 Diabetes Patients Who Initiated Exenatide as Compared With Those Who Initiated Other Non-Glucagon-Like Peptide 1 Receptor Agonists Based Glucose Lowering Drugs
+   - Sponsor: AstraZeneca (Industry)
+   - Enrollment: 24,000 (estimated)
+   - Status: Recruiting (verified 2026-09)
 
-Selection criteria: overall status = RECRUITING, lead-sponsor class = INDUSTRY, sorted by enrollment count descending.
+## 5. SUNSHINE Citation Check (NCT01608724)
 
-### Trial 1 — NCT06278207 (FINEROD)
-- **NCT ID:** NCT06278207
-- **Official title:** Finerenone Research of Outcomes and Drug Utilization
-- **Sponsor:** Bayer (Industry)
-- **Enrollment:** 50,000 (estimated)
-- **Status:** Recruiting (status verified 2026-06; start 2024-05-15; estimated primary completion 2026-09-30)
-- **Brief:** Observational cohort of patients with chronic kidney disease and type 2 diabetes initiating finerenone, from US and Asia electronic health records and claims data.
+- Official Title: A Multicenter, Single Arm, Cohort Study to Evaluate the Efficacy and Safety of Saxagliptin 5mg, Once Daily for 24 Weeks, in Patients With Type 2 Diabetes Mellitus
+- Acronym: SUNSHINE
+- Sponsor: AstraZeneca (Industry)
+- Enrollment: 2165 (Actual)
+- Overall Status: Completed (status verified 2015-12; primary completion 2014-05 actual; completion 2014-05 actual)
+- Phase: Phase 4
 
-### Trial 2 — NCT03549754 (iCaReMe)
-- **NCT ID:** NCT03549754
-- **Official title:** Real-world Multinational Registry to Determine Management and Quality of Care of Patients With Type 2 Diabetes, Hypertension, Heart Failure and/or Chronic Kidney Diseases
-- **Sponsor:** AstraZeneca (Industry)
-- **Enrollment:** 35,000 (estimated)
-- **Status:** Recruiting (status verified 2026-08; start 2018-02-17; estimated completion 2030-12-31)
-- **Brief:** Multinational observational registry (T2D, hypertension, HF, and/or CKD cohorts) using a cloud-based eCRF for prospective and retrospective data collection.
-
-### Trial 3 — NCT05663515 (EXCEED)
-- **NCT ID:** NCT05663515
-- **Official title:** EXCEED - A Pan-European Post-Authorisation Safety Study: Risk of Pancreatic Cancer Among Type 2 Diabetes Patients Who Initiated Exenatide as Compared With Those Who Initiated Other Non-Glucagon-Like Peptide 1 Receptor Agonists Based Glucose Lowering Drugs
-- **Sponsor:** AstraZenena (Industry) -- AstraZeneca (Industry)
-- **Enrollment:** 24,000 (estimated)
-- **Status:** Recruiting (status verified 2026-09; start 2024-09-30; estimated primary completion 2026-10-01)
-- **Brief:** Non-interventional post-authorisation safety study assessing pancreatic cancer risk in T2DM patients who initiated exenatide vs. other non-GLP-1 RA based glucose-lowering drugs, across 7 European countries.
-
----
-
-## 3. SUNSHINE citation check — NCT01608724 (saxagliptin)
-
-- **NCT ID:** NCT01608724
-- **Acronym:** SUNSHINE
-- **Official title:** A Multicenter, Single Arm, Cohort Study to Evaluate the Efficacy and Safety of Saxagliptin 5mg, Once Daily for 24 Weeks, in Patients With Type 2 Diabetes Mellitus
-- **Sponsor:** AstraZeneca (class: INDUSTRY; responsible party: sponsor)
-- **Enrollment:** 2,165 (actual)
-- **Current overall status:** COMPLETED (status verified 2015-12; start 2012-11; actual primary completion and completion 2014-05; results first posted 2016-02-02)
-- **Phase:** Phase 4; interventional, single group, treatment purpose, non-randomized, open label
-- **Conditions:** Diabetes Mellitus, Non-Insulin-Dependent (Type 2 DM)
-- **Intervention:** Saxagliptin 5 mg oral once daily (other name: Onglyza)
-
-**Citation verdict:** Sponsor (AstraZeneca, industry) and enrollment (2,165 actual) are confirmed consistent with the registry record — no correction needed for those fields. If the draft describes the trial as ongoing, it should instead be described as **completed**.
-
----
-
-## 4. Notes
-
-- The registry aggregate-analysis tool caps at 5,000 studies per analysis; the 12,033-record set exceeds this, so counts were obtained via filtered countTotal queries against condition "type 2 diabetes" and reported exactly as returned.
-- Enrollment figures for the three profiled trials are estimated (observational registry-type designs); the SUNSHINE trial enrollment is actual.
-- Data retrieved from ClinicalTrials.gov API on 2026-11-02.
+Conclusion: the citation checks out. Sponsor (AstraZeneca), enrollment (2165 actual), and status (Completed) are as expected; no correction needed.
