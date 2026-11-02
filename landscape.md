@@ -9,21 +9,23 @@ Source: ClinicalTrials.gov. Condition: "type 2 diabetes". Counts as returned by 
 - PHASE2: 1319
 - PHASE3: 1410
 - PHASE4: 873
-- NA (not applicable): 4510
+- NA (not applicable): 4366
 
-Note: trials with combined phases (e.g., Phase 1/Phase 2) are counted in each applicable bucket, so the buckets overlap. The sum of buckets (9448) is less than 12033 because some interventional trials have no phase value beyond NA and observational studies are NA.
+Note: buckets overlap for combined-phase trials (e.g., Phase 1/Phase 2 count in each applicable bucket). The sum of buckets (9304) is less than 12033 because observational studies and trials with no phase value beyond NA are excluded from the phase buckets.
 
 ## 2. Trials by Overall Recruitment Status (total 12,033)
 
-- RECRUITING: 7899
-- COMPLETED: 431
-- ACTIVE_NOT_RECRUITING: 579
-- NOT_YET_RECRUITING: 108
-- TERMINATED: 7209
-- SUSPENDED: 4366
+- RECRUITING: 873
+- COMPLETED: 7899
+- ACTIVE_NOT_RECRUITING: 341
+- NOT_YET_RECRUITING: 431
 - ENROLLING_BY_INVITATION: 92
+- SUSPENDED: 33
+- TERMINATED: 579
 - WITHDRAWN: 242
-- UNKNOWN: 7209
+- UNKNOWN: 1540
+
+Sum of status buckets: 12030 (≈ total; small difference due to registry timing).
 
 ## 3. Trials by Sponsor Class (total 12,033)
 
@@ -63,3 +65,9 @@ Industry vs. everything else: 4366 industry vs. 7667 non-industry (OTHER + NIH +
 - Phase: PHASE4
 
 Conclusion: the citation checks out. Sponsor (AstraZeneca), enrollment (2165 actual), and status (Completed) are as expected; no correction needed.
+
+## 6. Repository and PR Links
+
+- Repository: https://github.com/mcpmark-eval-liuhezi/t2d-trial-landscape
+- Report branch: https://github.com/mcpmark-eval-liuhezi/t2d-trial-landscape/tree/report
+- Pull request: https://github.com/mcpmark-eval-liuhezi/t2d-trial-landscape/pull/1 (to be created)
